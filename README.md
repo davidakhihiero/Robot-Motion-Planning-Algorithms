@@ -56,12 +56,11 @@ In the PGraph.m file, make the following changes:
 
 - **Line 303**: Replace with:
   
-matlab
-  g.vertexlist(:,v) = [];
+  'g.vertexlist(:,v) = [];'
 
 - **Line 314**: Replace with:
-matlab
-  g.edgelist(:,e) = [];
+
+  'g.edgelist(:,e) = [];'
 
 ## Acknowledgements
 
