@@ -50,6 +50,19 @@ This repository contains code and documentation for the **MAE593B – Robot Moti
 - MATLAB (R2020b or later recommended).
 - Peter Corke's Robotics Toolbox (available [here](https://petercorke.com/toolboxes/robotics-toolbox/)).
 
+### Note
+
+In the PGraph.m file, make the following changes:
+
+- **Line 303**: Replace with:
+  
+matlab
+  g.vertexlist(:,v) = [];
+
+- **Line 314**: Replace with:
+matlab
+  g.edgelist(:,e) = [];
+
 ## Acknowledgements
 
 - **Peter Corke’s Robotics Toolbox for MATLAB**: This toolbox was essential in implementing visibility graphs and search algorithms.
